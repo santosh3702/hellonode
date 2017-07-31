@@ -43,7 +43,7 @@ node {
 		}catch (error) {
     } finally {
       // Stop and remove database container here
-      sh 'docker stop santoshrahulgoru/hellonode'
+      //sh 'docker stop santoshrahulgoru/hellonode'
       // sh 'docker-compose rm db'
     }
     }
