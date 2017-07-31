@@ -25,6 +25,7 @@ node {
 
 	stage('Run the applicaton'){
 	      try{
+		  sh 'echo "Running the app"'
 		  sh 'docker run -it -p 8000:8000 santoshrahulgoru/hellonode'
 		  }catch (error) {
     } 
